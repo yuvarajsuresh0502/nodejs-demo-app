@@ -1,0 +1,14 @@
+bash
+
+cat > package.json << 'EOF'
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  }
+}
+EOF
+
